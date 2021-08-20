@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dog Quiz</title>
+</head>
+
+<body>
+    <h1>Guess the Dog Breed 🐕</h1>
+    <section id="card">
+        <div id="lives">
+            <h2>🐶🐶🐶</h2>
+        </div>
+        <div id="score">
+            <h2>Score: <span id="scoreNum">0</span></h2>
+        </div>
+
+        <div id="profile">
+            <img id="dog"
+                src="https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/322868_1100-800x825.jpg">
+        </div>
+        <section id=grid>
+            <form>
+                <button type="button" class="breed" id="breed_1" value="" , onclick=testClick(this.value)></button>
+                <button type="button" class="breed" id="breed_2" value="" , onclick=testClick(this.value)></button>
+                <button type="button" class="breed" id="breed_3" value="" , onclick=testClick(this.value)></button>
+                <button type="button" class="breed" id="breed_4" value="" , onclick=testClick(this.value)></button>
+            </form>
+        </section>
+        <h2 id="result"></h2>
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>

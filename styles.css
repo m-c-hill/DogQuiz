@@ -1,0 +1,91 @@
+h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: purple;
+    width: calc(30% - 16px);
+    padding-left: 10px;
+    color: white;
+    border: 3px black solid;
+    border-radius: 10px;
+}
+
+#card{
+    width: 30%;
+    background-color: lightblue;
+    margin: 0;
+    border: 3px black solid;
+    border-radius: 10px;
+}
+
+#profile {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+#dog {
+    object-fit: cover;
+    border: 10px pink solid;
+    border-radius:50%;
+    width: 60%;
+    height: 60%;
+    margin-left: 18%;
+    margin-right: 18%;
+    /*display:none;*/
+}
+
+#score {
+    background-color: lightgrey;
+    width: 25%;
+    height: auto;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-top: 0;
+}
+
+#lives {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: -8px;
+    float: right;
+}
+
+#score > h2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkred;
+}
+
+h2 > span {
+    color: green;
+}
+
+#grid{
+    min-height: 50%;
+}
+
+.breed {
+    color:white;
+    width: 90%;
+    background-color: darkmagenta;
+    border: 5px black solid;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-left: 4%;
+    /*display:none;*/
+}
+
+.breed:hover{
+    transform: scale(1.05);
+    background-color: indigo;
+    color: lightcoral;
+}
+
+#result {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    background-color: darkred;
+    text-align:center;
+}
